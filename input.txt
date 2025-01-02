@@ -1,0 +1,34 @@
++s+ sv +b+ co +t+ : 
++s+ sv +b+ co +t+ :
+!condition! ( +x+ >> +y+ ) { 
+    +farz+ sv +kimi+ :
+    !forloop! ( +faraz+ sv 10 : , +sv+ alike +faraz+ , +faraz+ pl 1 : ) {
+        +faraz+ sv +faraz+ pl 10 :
+        #
+    }
+    !condition! ( +parsa+ >> +kiomars+ ) {
+        !cycle! ( +parsa+ >> +kiomars+ ) {
+            int +number+ sv 12 co 32 db 5 :
+            #
+        }
+        #
+    }
+    str +string+ sv 32 co 10 :
+    int +str+ :
+    invitation +faraz+ ( +ia+ , +qe+ ) :
+    $subordinate +parsa+ ( str +parsa+ , int +faraz+ ) {
+        +parsa+ sv +faraz+ co +faraz+ :
+    #
+    }
+    !condition! ( +faraz+ >> +kimia+ ) {
+        +parsa+ sv +faraz+ :
+        #
+    } elseif ( +kio+ << +aban+ ) {
+        +kio+ sv +ahang+ :
+        #
+    } else {
+        +chahbdar+ sv +arshia+ :
+        #
+    }
+    #
+} $
